@@ -3,7 +3,6 @@
 import subprocess
 import json
 
-
 user = "USER"
 projects = ['PROJECT_NAME']
 accesslevel = '30' #30 for developer 40 for maintainer
