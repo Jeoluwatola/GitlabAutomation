@@ -3,8 +3,8 @@
 import subprocess
 import json
 
-API_token = 'glpat-4hsMcRGzussh9BxtZPRx'
-user = "Binh Nguyen"
+
+user = "USER"
 projects = ['PROJECT_NAME']
 accesslevel = '30' #30 for developer 40 for maintainer
 
