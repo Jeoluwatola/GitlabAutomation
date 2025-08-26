@@ -29,7 +29,7 @@ print(projectid)
 print(f'{projectname} was created with id {projectid}')
 
 #add approval rule
-addapprovalrule = f'curl -X POST  -H "Authorization: Bearer {API_token}" -d "name=approval&approvals_required=1&applies_to_all_protected_branches=true&rule_type=any_approver" --url "https://gitlab.com/api/v4//projects/{projectid}/approval_rules"'
+addapprovalrule = f'curl -X POST  -H "Authorization: Bearer {API_token}" -d "name=approval&approvals_required=1&applies_to_all_protected_branches=true&rule_type=any_approver" --url "https://gitlab.com/api/v4/projects/{projectid}/approval_rules"'
 page = curl(addapprovalrule)
 print(page)
 
